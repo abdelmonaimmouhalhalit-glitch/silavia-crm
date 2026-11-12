@@ -1,0 +1,10 @@
+# Ne jamais téléverser les secrets locaux ni les artefacts de build
+.env
+.env.local
+.env.*.local
+node_modules
+dist
+coverage
+supabase/.temp
+supabase/.branches
+.DS_Store
